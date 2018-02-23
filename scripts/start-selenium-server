@@ -1,0 +1,9 @@
+#!/bin/bash -eu
+
+# cf. http://mens-onayami.club/2017/05/07/post-122/
+# /usr/local/bin/selenium-server -Dwebdriver.chrome.bin="/Applications/Google Chrome.app" -Dwebdriver.chrome.driver=/usr/local/bin/chromedriver
+
+java \
+  -Dwebdriver.chrome.bin="/Applications/Google Chrome.app" \
+  -Dwebdriver.chrome.driver=/usr/local/bin/chromedriver \
+  -jar /usr/local/Cellar/selenium-server-standalone/3.9.1/libexec/selenium-server-standalone-3.9.1.jar

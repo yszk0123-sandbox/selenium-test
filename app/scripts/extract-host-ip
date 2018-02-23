@@ -1,0 +1,8 @@
+#!/bin/bash -eu
+
+# From 17.06+
+# http://docker.for.mac.localhost
+
+# 17.05-
+# hostip="$(ip route show | awk '/default/ {print $3}')"
+# echo $hostip
